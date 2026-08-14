@@ -1,0 +1,702 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python List - Business Scenario Assignments</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .topics {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .topics h2 {
+            color: #1d2671;
+            margin-bottom: 12px;
+        }
+
+        .topics span {
+            display: inline-block;
+            background: #eef1ff;
+            color: #1d2671;
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .assignment {
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 6px solid #c33764;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .assignment:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .assignment h2 {
+            color: #c33764;
+            margin-bottom: 12px;
+        }
+
+        .scenario {
+            background: #f8f9ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 12px 0;
+        }
+
+        .task {
+            margin-top: 12px;
+        }
+
+        .task ul {
+            margin-left: 25px;
+            margin-top: 8px;
+        }
+
+        .skills {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #1d2671;
+        }
+
+        .difficulty {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: white;
+            background: #28a745;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1d2671;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐍 Python List</h1>
+    <p>15 Real-World Business Scenario Assignments</p>
+</header>
+
+<div class="container">
+
+    <div class="topics">
+        <h2>📚 Concepts Students Should Use</h2>
+
+        <span>List Creation</span>
+        <span>Indexing</span>
+        <span>Slicing</span>
+        <span>append()</span>
+        <span>insert()</span>
+        <span>extend()</span>
+        <span>remove()</span>
+        <span>pop()</span>
+        <span>sort()</span>
+        <span>reverse()</span>
+        <span>len()</span>
+        <span>max()</span>
+        <span>min()</span>
+        <span>sum()</span>
+        <span>count()</span>
+        <span>in Operator</span>
+        <span>for Loop</span>
+    </div>
+
+
+    <!-- Assignment 1 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 1 – 🛒 Product Inventory</h2>
+
+        <span class="difficulty">Easy</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A supermarket wants to maintain a list of products available in its store.
+        </div>
+
+        <div class="task">
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list containing 10 product names.</li>
+                <li>Add a new product using <b>append()</b>.</li>
+                <li>Remove one discontinued product.</li>
+                <li>Display the total number of products.</li>
+                <li>Check whether "Milk" is available.</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), len(), in
+        </div>
+    </div>
+
+
+    <!-- Assignment 2 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 2 – 💰 Monthly Sales</h2>
+
+        <span class="difficulty">Easy</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A company wants to analyze its monthly sales.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of sales for 12 months.</li>
+                <li>Find total annual sales.</li>
+                <li>Find highest sales.</li>
+                <li>Find lowest sales.</li>
+                <li>Find average monthly sales.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: sum(), max(), min(), len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 3 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 3 – 👨‍💼 Employee Salary</h2>
+
+        <span class="difficulty">Easy</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            HR department has a list of employee salaries.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a salary list for 10 employees.</li>
+                <li>Find the highest salary.</li>
+                <li>Find the lowest salary.</li>
+                <li>Calculate total salary expense.</li>
+                <li>Sort salaries from lowest to highest.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: max(), min(), sum(), sort()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 4 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 4 – 📦 Warehouse Stock</h2>
+
+        <span class="difficulty">Easy</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            An e-commerce company maintains stock quantities for products.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of stock quantities.</li>
+                <li>Add stock received today.</li>
+                <li>Remove one product whose stock is finished.</li>
+                <li>Find the maximum stock.</li>
+                <li>Find the minimum stock.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), max(), min()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 5 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 5 – 🏦 Bank Transactions</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A bank wants to analyze transactions performed by a customer.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list containing 15 transaction amounts.</li>
+                <li>Calculate total transactions.</li>
+                <li>Find the largest transaction.</li>
+                <li>Find the smallest transaction.</li>
+                <li>Count how many times ₹5000 occurred.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: sum(), max(), min(), count(), len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 6 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 6 – 🎓 Student Marks</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A college wants to analyze marks obtained by a student.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of marks for 6 subjects.</li>
+                <li>Calculate total marks.</li>
+                <li>Calculate percentage.</li>
+                <li>Find highest marks.</li>
+                <li>Find lowest marks.</li>
+                <li>Sort marks.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: sum(), max(), min(), sort(), len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 7 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 7 – 🍔 Restaurant Orders</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A restaurant maintains a list of food items ordered by customers.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of 10 food orders.</li>
+                <li>Add a new order.</li>
+                <li>Cancel one order.</li>
+                <li>Check whether "Pizza" was ordered.</li>
+                <li>Count how many times "Burger" was ordered.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), count(), in
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 8 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 8 – 🚗 Car Rental</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A car rental company maintains a list of available cars.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of available cars.</li>
+                <li>Add a newly returned car.</li>
+                <li>Remove a rented car.</li>
+                <li>Check whether "Swift" is available.</li>
+                <li>Display the number of available cars.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), in, len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 9 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 9 – 📱 Mobile Store</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A mobile shop maintains a list of mobile phone prices.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of 10 mobile prices.</li>
+                <li>Find the most expensive mobile.</li>
+                <li>Find the cheapest mobile.</li>
+                <li>Sort prices.</li>
+                <li>Display the top 3 expensive phones.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: max(), min(), sort(), slicing
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 10 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 10 – 📈 Stock Market Prices</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            An investor wants to analyze the stock prices of a company for 10 days.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of 10 stock prices.</li>
+                <li>Find highest price.</li>
+                <li>Find lowest price.</li>
+                <li>Calculate average price.</li>
+                <li>Sort prices.</li>
+                <li>Display the last 5 prices.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: max(), min(), sum(), sort(), slicing
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 11 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 11 – 🛍️ E-Commerce Cart</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            An online shopping website maintains products added to a customer's cart.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a shopping cart list.</li>
+                <li>Add 3 new products.</li>
+                <li>Remove one product.</li>
+                <li>Check whether "Laptop" is in the cart.</li>
+                <li>Display total number of products.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), in, len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 12 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 12 – 📞 Customer Support Tickets</h2>
+
+        <span class="difficulty">Medium</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A company maintains customer support ticket numbers.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list of ticket IDs.</li>
+                <li>Add a new ticket.</li>
+                <li>Remove a resolved ticket.</li>
+                <li>Check whether ticket 105 exists.</li>
+                <li>Display total pending tickets.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), remove(), in, len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 13 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 13 – 📊 Sales Team Performance</h2>
+
+        <span class="difficulty">Hard</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            A company wants to analyze sales performance of its sales employees.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list containing sales generated by 10 employees.</li>
+                <li>Find the top performer.</li>
+                <li>Find the lowest performer.</li>
+                <li>Calculate total sales.</li>
+                <li>Calculate average sales.</li>
+                <li>Sort sales in descending order.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: max(), min(), sum(), sort(), len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 14 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 14 – ✈️ Airline Passenger Management</h2>
+
+        <span class="difficulty">Hard</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            An airline maintains a list of passenger names for a flight.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a passenger list.</li>
+                <li>Add a last-minute passenger.</li>
+                <li>Remove a cancelled passenger.</li>
+                <li>Insert a VIP passenger at the beginning.</li>
+                <li>Display first 5 passengers.</li>
+                <li>Display total passenger count.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), insert(), remove(), slicing, len()
+        </div>
+
+    </div>
+
+
+    <!-- Assignment 15 -->
+
+    <div class="assignment">
+
+        <h2>Assignment 15 – 🏢 Company Employee Management</h2>
+
+        <span class="difficulty">Hard</span>
+
+        <div class="scenario">
+            <b>Business Scenario:</b>
+            An IT company wants to maintain and update its employee list.
+        </div>
+
+        <div class="task">
+
+            <b>Task:</b>
+
+            <ul>
+                <li>Create a list containing 10 employee names.</li>
+                <li>Add 3 newly joined employees.</li>
+                <li>Remove an employee who left the company.</li>
+                <li>Insert a manager at the beginning.</li>
+                <li>Check whether "Rahul" is working in the company.</li>
+                <li>Sort employees alphabetically.</li>
+                <li>Reverse the employee list.</li>
+                <li>Display total employees.</li>
+            </ul>
+
+        </div>
+
+        <div class="skills">
+            Concepts: append(), extend(), insert(), remove(),
+            sort(), reverse(), len(), in
+        </div>
+
+    </div>
+
+
+    <div class="topics">
+
+        
+        <b>Challenge:</b>
+
+        <ul>
+            <li>Use meaningful variable names.</li>
+            <li>Use List methods wherever applicable.</li>
+            <li>Use loops where required.</li>
+            <li>Print clear output messages.</li>
+            <li>Try to solve without using advanced concepts.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<footer>
+    <h3>🐍 Python List Business Assignment</h3>
+    <p>Practice → Logic → Business Problem → Solution</p>
+</footer>
+
+</body>
+</html>
+
