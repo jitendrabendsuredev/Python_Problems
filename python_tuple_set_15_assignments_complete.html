@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Python Tuple &amp; Set - Business Scenario Assignments</title>
+<style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .topics {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .topics h2 {
+            color: #1d2671;
+            margin-bottom: 12px;
+        }
+
+        .topics span {
+            display: inline-block;
+            background: #eef1ff;
+            color: #1d2671;
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .assignment {
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 6px solid #c33764;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .assignment:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .assignment h2 {
+            color: #c33764;
+            margin-bottom: 12px;
+        }
+
+        .scenario {
+            background: #f8f9ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 12px 0;
+        }
+
+        .task {
+            margin-top: 12px;
+        }
+
+        .task ul {
+            margin-left: 25px;
+            margin-top: 8px;
+        }
+
+        .skills {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #1d2671;
+        }
+
+        .difficulty {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: white;
+            background: #28a745;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1d2671;
+            color: white;
+            margin-top: 40px;
+        }
+    
+.next-topic button:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+
+.expected {
+    font-size: 14px;
+    color: #333;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>🐍 Python Tuple &amp; Set</h1>
+<p>15 Real-World Business Scenario Assignments</p>
+</header>
+<div class="next-topic" style="text-align:center; margin:35px 0 15px;"><button onclick="openNextTopic()" style="background:linear-gradient(135deg,#1d2671,#c33764);color:white;border:none;padding:14px 32px;border-radius:30px;font-size:17px;font-weight:bold;cursor:pointer;box-shadow:0 5px 15px rgba(0,0,0,0.18);">➡️ Next Topic</button></div><footer>
+<h3>🐍 Python Tuple &amp; Set Business Assignment</h3>
+<p>Practice → Logic → Business Problem → Solution</p>
+</footer><div class="container">
+<div class="topics"><h2>📚 Concepts Students Should Use</h2><span>Tuple Creation</span><span>Indexing</span><span>Negative Indexing</span><span>Slicing</span><span>count()</span><span>index()</span><span>Nested Tuple</span><span>Tuple Unpacking</span><span>Set Creation</span><span>add()</span><span>update()</span><span>remove()</span><span>discard()</span><span>Union</span><span>Intersection</span><span>Difference</span><span>Symmetric Difference</span><span>Membership</span><span>for Loop</span></div><div class="assignment"><h2>Assignment 1 – 👨‍🎓 Student Profile Tuple</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> A college wants to store basic information of a student in a fixed structure.</div><div class="task"><b>Task:</b><ul><li>Create a tuple containing name, age, course, city and percentage.</li><li>Display every value separately using indexing.</li><li>Display the student's course and percentage.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Name: Rahul
+Age: 21
+Course: Python
+City: Pune
+Percentage: 78.5</div><div class="skills">Concepts: Tuple creation, indexing, negative indexing</div></div><div class="assignment"><h2>Assignment 2 – 🛒 Product Catalog Tuple</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> An online store stores 10 product names in a tuple because the catalog should not be changed accidentally.</div><div class="task"><b>Task:</b><ul><li>Create a tuple containing 10 product names.</li><li>Display the first product.</li><li>Display the last product.</li><li>Display the first 5 products.</li><li>Display products from index 3 to 7.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>First Product: Laptop
+Last Product: Headphones
+First 5 Products: Laptop, Mouse, Keyboard, Monitor, Printer</div><div class="skills">Concepts: indexing, negative indexing, slicing</div></div><div class="assignment"><h2>Assignment 3 – 🏢 Employee Department Tuple</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> An HR system stores department names of employees in a tuple.</div><div class="task"><b>Task:</b><ul><li>Create a tuple such as ('IT','HR','Sales','IT','Finance','IT','HR').</li><li>Count how many employees belong to IT.</li><li>Find the index of Finance.</li><li>Check whether Sales exists in the tuple.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>IT Count: 3
+Finance Index: 4
+Sales Available: True</div><div class="skills">Concepts: count(), index(), in operator</div></div><div class="assignment"><h2>Assignment 4 – 📦 Product Sales Nested Tuple</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> A company stores product-wise sales information using nested tuples.</div><div class="task"><b>Task:</b><ul><li>Create a nested tuple containing product name, quantity and price for 3 products.</li><li>Display each product's information.</li><li>Calculate quantity × price for every product.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Laptop Total: ₹100000
+Mouse Total: ₹2500
+Keyboard Total: ₹3600</div><div class="skills">Concepts: nested tuple, indexing, loops</div></div><div class="assignment"><h2>Assignment 5 – 👨‍💼 Employee Profile Unpacking</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> An organization stores an employee record as one tuple.</div><div class="task"><b>Task:</b><ul><li>Use a tuple like ('Amit','Python Developer',55000,'Pune').</li><li>Unpack it into separate variables.</li><li>Display a formatted employee profile.</li><li>Change the salary by creating a new tuple.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Employee: Amit
+Role: Python Developer
+Salary: ₹55000
+Location: Pune</div><div class="skills">Concepts: tuple unpacking, tuple immutability</div></div><div class="assignment"><h2>Assignment 6 – 💰 Monthly Expense Analysis</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> A company wants to analyze 12 months of operating expenses stored in a tuple.</div><div class="task"><b>Task:</b><ul><li>Create a tuple of 12 monthly expenses.</li><li>Find total annual expense.</li><li>Find highest and lowest expense.</li><li>Calculate average monthly expense.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Total Annual Expense: ₹240000
+Highest Expense: ₹25000
+Lowest Expense: ₹15000
+Average Expense: ₹20000</div><div class="skills">Concepts: sum(), max(), min(), len()</div></div><div class="assignment"><h2>Assignment 7 – 🎓 Student Marks Analysis</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> A teacher stores marks of students in a tuple and wants a quick performance summary.</div><div class="task"><b>Task:</b><ul><li>Create a tuple containing marks of 10 students.</li><li>Count students scoring 90 or above.</li><li>Count students between 60 and 89.</li><li>Count students below 60.</li><li>Display highest and lowest marks.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>90+ Students: 2
+60-89 Students: 6
+Below 60: 2
+Highest Marks: 95
+Lowest Marks: 45</div><div class="skills">Concepts: tuple, for loop, conditions, max(), min()</div></div><div class="assignment"><h2>Assignment 8 – 🛍️ Unique Product Inventory</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> A supermarket receives duplicate product names from different branches and wants only unique products.</div><div class="task"><b>Task:</b><ul><li>Create a list containing duplicate product names.</li><li>Convert the list into a set.</li><li>Display all unique products.</li><li>Display the number of unique products.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Unique Products: Laptop, Mouse, Keyboard, Monitor
+Total Unique Products: 4</div><div class="skills">Concepts: set(), uniqueness, len()</div></div><div class="assignment"><h2>Assignment 9 – 💻 Programming Course Set</h2><span class="difficulty">Easy</span><div class="scenario"><b>Business Scenario:</b> A training institute maintains a set of programming courses currently available.</div><div class="task"><b>Task:</b><ul><li>Create a set containing Python, Java and C++.</li><li>Add JavaScript.</li><li>Add HTML and CSS using update().</li><li>Remove C++.</li><li>Display the final set.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Final Set: Python, Java, JavaScript, HTML, CSS
+C++ Removed: Yes</div><div class="skills">Concepts: add(), update(), remove()</div></div><div class="assignment"><h2>Assignment 10 – 👥 Customer Course Union</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> An institute has two groups of students who attended Python and Django courses.</div><div class="task"><b>Task:</b><ul><li>Create a Python student set.</li><li>Create a Django student set.</li><li>Find all unique students who attended at least one course.</li><li>Display the total number of unique students.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>All Unique Students: 6
+Example: Amit, Rahul, Sneha, Pooja, Vijay, Neha</div><div class="skills">Concepts: union(), |, len()</div></div><div class="assignment"><h2>Assignment 11 – 🤝 Common Students</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> Management wants to identify students who attended both Python and Django courses.</div><div class="task"><b>Task:</b><ul><li>Create two student sets.</li><li>Find students present in both sets.</li><li>Display the common students.</li><li>Display the number of common students.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Common Students: Rahul, Pooja
+Common Student Count: 2</div><div class="skills">Concepts: intersection(), &amp;, len()</div></div><div class="assignment"><h2>Assignment 12 – 📅 Monthly Customer Difference</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> An e-commerce company wants to identify customers who purchased in January but not in February.</div><div class="task"><b>Task:</b><ul><li>Create January and February customer sets.</li><li>Find January-only customers.</li><li>Find February-only customers.</li><li>Display both results separately.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>January Only: Amit, Rahul
+February Only: Vijay, Neha</div><div class="skills">Concepts: difference(), -, set operations</div></div><div class="assignment"><h2>Assignment 13 – 📢 Marketing Campaign Analysis</h2><span class="difficulty">Medium</span><div class="scenario"><b>Business Scenario:</b> A company ran Facebook and Instagram campaigns and wants customers who appeared in only one campaign.</div><div class="task"><b>Task:</b><ul><li>Create a Facebook customer set.</li><li>Create an Instagram customer set.</li><li>Find customers present in only one campaign.</li><li>Display the result and count.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Only One Campaign: Amit, Sneha, Vijay, Neha
+Customer Count: 4</div><div class="skills">Concepts: symmetric_difference(), ^</div></div><div class="assignment"><h2>Assignment 14 – 🏫 Batch Attendance Analysis</h2><span class="difficulty">Hard</span><div class="scenario"><b>Business Scenario:</b> A training institute has two batches and wants to compare their student attendance.</div><div class="task"><b>Task:</b><ul><li>Create sets for Batch A and Batch B.</li><li>Find students present in both batches.</li><li>Find students only in Batch A.</li><li>Find students only in Batch B.</li><li>Find all unique students across both batches.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Both Batches: 2 students
+Batch A Only: 2 students
+Batch B Only: 2 students
+All Unique Students: 6 students</div><div class="skills">Concepts: union, intersection, difference, set logic</div></div><div class="assignment"><h2>Assignment 15 – 🔥 Tuple + Set Order Analysis</h2><span class="difficulty">Hard</span><div class="scenario"><b>Business Scenario:</b> An online store stores each order as a tuple containing order ID, product and customer.</div><div class="task"><b>Task:</b><ul><li>Create at least 8 order tuples.</li><li>Find all unique customers using a set.</li><li>Find all unique products using a set.</li><li>Count total orders.</li><li>Identify customers who placed multiple orders.</li><li>Display a simple order summary without using pandas or dictionaries.</li></ul></div><div class="expected" style="margin-top:15px;background:#f1f5f9;padding:15px;border-radius:10px;border-left:4px solid #1d2671;white-space:pre-line;"><b>📌 Expected Output:</b><br/>Total Orders: 8
+Unique Customers: 5
+Unique Products: 4
+Multiple-Order Customers: Amit, Rahul</div><div class="skills">Concepts: tuple indexing, nested/collection data, set uniqueness, loops, conditions</div></div>
+<!-- Assignment 1 -->
+<!-- Assignment 2 -->
+<!-- Assignment 3 -->
+<!-- Assignment 4 -->
+<!-- Assignment 5 -->
+<!-- Assignment 6 -->
+<!-- Assignment 7 -->
+<!-- Assignment 8 -->
+<!-- Assignment 9 -->
+<!-- Assignment 10 -->
+<!-- Assignment 11 -->
+<!-- Assignment 12 -->
+<!-- Assignment 13 -->
+<!-- Assignment 14 -->
+<!-- Assignment 15 -->
+<div class="topics"><b>🏆 Final Challenge</b><ul><li>Complete all 15 assignments in Python.</li><li>Do not use pandas or NumPy.</li><li>Use Tuple and Set operations wherever appropriate.</li><li>Use loops and conditions for the required analysis.</li><li>Bonus: Take input from the user for at least 5 assignments.</li></ul></div></div>
+<script>
+function openNextTopic() {
+    window.location.href = "next_topic.html";
+}
+</script></body>
+</html>
